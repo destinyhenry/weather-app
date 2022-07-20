@@ -3,63 +3,68 @@ header {
     background-color: blue;
 }
 
-div.title {
+.title {
     
     color: white;
     text-align: center;
 }
-div.title h1 {
+.title h1 {
     padding: 10px;
 }
 
 /* Main content */
-main.dashboard {
+.dashboard {
     background-color: rgb(247, 247, 247);
 }
 
 /* Left Sidebar */
-div.recent-searches h2 {
+.recent-searches h2 {
     font-size: 1.2rem;
 }
 
-div.cityList {
+.cityList {
     margin-top: 20px;
 }
 
-div.city {
+.city {
     padding: 10px;
 }
 
-div.cityName {
+.cityName {
     background-color: white;
     color: black;   
 }
 /* Weather Data */
 
-div.currentWeather {
+.currentWeather {
     margin-bottom: 20px;
     background-color: white;
-}
-
-div.currentWeather h2,
-div.currentWeather h3 {
-    font-size: 1.3rem;
+    font-size: 15px;
     margin: 10px;
 }
 
-span#uv-index {
+/* .currentWeather {
+    font-size: 1.3rem;
+    margin: 10px;
+} */
+
+#uv-index {
     color: white;
 }
 
-div.fiveDay h2 {
-    font-size: 1.2rem;
+.city {
+    font-size: 25px;
 }
 
-div.fiveDay p {
-    font-size: .8rem;
+.date {
+    font-size: 10px;
 }
 
-div.fiveDay p.card-title {
+.forecast h3{
+    font-size: 5px;
+}
+
+.card-title {
     font-weight: bold;
     color: white;
 }
@@ -68,6 +73,9 @@ div.fiveDay p.card-title {
     background-color: blue;
 }
 
-.text-muted {
-    color: white !important;
+.card-text {
+    color: white;
 }
+
+
+
